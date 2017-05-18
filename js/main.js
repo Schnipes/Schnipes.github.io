@@ -90,9 +90,9 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["I'm Paul Peter", "I Love Simplicity", "I Love Adventure"],
+        strings: ["I'm Paul", "Simplicity is king", "I live in adventure"],
         typeSpeed: 80,
-        backDelay: 900,
+        backDelay: 1000,
         // loop
         loop: true
     });
@@ -106,12 +106,20 @@
       itemsDesktopSmall : [979,1],
       itemsTablet : [768,1],
       itemsMobile : [479,1],
+         
 
       // CSS Styles
       baseClass : "owl-carousel",
-      theme : "owl-theme"
+      theme : "owl-theme",
+ 
     });
 
+      
+      
+     
+      
+      
+      
     $('.owl-carousel2').owlCarousel({
       autoPlay: 3000, //Set AutoPlay to 3 seconds
  
